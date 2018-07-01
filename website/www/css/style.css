@@ -8,11 +8,33 @@ body {
 .navbar {
   background: #e6213a;
 }
-.jumbotron {
-    height: 600px;
-    background-image: url('../images/Dart-Race-med.jpg');
-    background-position: 30% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #ebc311;
+.index-main {
+   background-color: #ebc311;
+   padding: 20px;
+}
+#jumbotron-text{
+  padding-top: 20px;
+}
+@media (min-width: 430px) {
+  .jumbotron {
+      height: 600px;
+      background-image: url('../images/Dart-Race-med.jpg');
+      background-position: 30% 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #ebc311;
+  }  
+}
+@media (max-width: 430px) {
+  .jumbotron {
+      height: 250px;
+      background-image: url('../images/Dart-Race-med.jpg');
+      background-position: 30% 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #ebc311;
+  }
+  #jumbotron-text {
+    visibility: hidden;
+  }
 }
