@@ -4,13 +4,22 @@
 body {
   font-family: "Droid Sans",Helvetica,Arial,sans-serif;
   /* padding-top: 3.5rem; */
+  background-color: #363636;
+}
+footer {
+  color: white;
 }
 .navbar {
   background: #e6213a;
 }
+.card {
+  padding: 20px;
+}
 .index-main {
    background-color: #ebc311;
-   padding: 20px;
+}
+#mobile-header {
+  color: #bfc0c2;
 }
 #jumbotron-text{
   padding-top: 20px;
@@ -23,7 +32,10 @@ body {
       background-size: cover;
       background-repeat: no-repeat;
       color: #ebc311;
-  }  
+  }
+  #mobile-header {
+      display: none;
+  }
 }
 @media (max-width: 430px) {
   .jumbotron {
